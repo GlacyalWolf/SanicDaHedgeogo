@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/fondo_ingame"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Score : 300"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_ingame">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            android:text="Start"
+            android:textColor="#FFC32B"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/sanic" />
+
+        <ImageView
+            android:id="@+id/obj1"
+            android:layout_width="43dp"
+            android:layout_height="44dp"
+            android:src="@drawable/anillo2" />
+
+        <ImageView
+            android:id="@+id/obj3"
+            android:layout_width="43dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ugandanknukles" />
+
+        <ImageView
+            android:id="@+id/obj2"
+            android:layout_width="43dp"
+            android:layout_height="45dp"
+            android:src="@drawable/anillo" />
+
+    </FrameLayout>
+
+</LinearLayout>
